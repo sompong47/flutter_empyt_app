@@ -16,8 +16,9 @@ class _MyNewPageState extends State<MyNewPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("hallo godji สุดหล่อ"),
-            Text("Welcom รับอะไรดีครับ"),
+            Text("สวัสดีครับ สุดหล่อ", style: TextStyle(fontSize: 24,fontWeight: FontWeight.bold),),
+            SizedBox(height: 20,),
+            Text("รับอะไรดีครับ", style: TextStyle(fontSize: 24,fontWeight: FontWeight.bold),),
           ],
         ),
       ),
