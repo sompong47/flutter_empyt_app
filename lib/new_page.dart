@@ -12,7 +12,15 @@ class _MyNewPageState extends State<MyNewPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('GODJI APP')),
-      body: Center(child: Text("สวัสดีคนไทย"),),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text("hallo godji สุดหล่อ"),
+            Text("Welcom รับอะไรดีครับ"),
+          ],
+        ),
+      ),
     );
   }
 }
